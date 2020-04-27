@@ -1,12 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 420px) {
 
   body {
     background: lightblue;
+    margin: 0 10px;
   }
+
   .row {
     width: 100%;
     margin: 50px auto;
-    margin-left: -8px;
+    padding: 20px 0;
   }
 
   #lezioni .row .left,
@@ -15,7 +23,6 @@
     float: none;
     padding: 50px 0;
     margin: 0 auto;
-    padding: 20px 0;
   }
   #lezioni {
     background: rgba(0,0,0,0.05);
